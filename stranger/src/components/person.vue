@@ -230,7 +230,6 @@ export default {
 
     addPer(){
         let that = this, url = this.$api.api_duty + 'camera/server/add_face' ;
-
         if(that.form.name && that.form.id_card && that.form.userAvatar){
             that.$axios.post(url,{
                 "name":that.form.name,
